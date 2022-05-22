@@ -239,7 +239,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 \]</span></p>
 <p>Para calcular el <span class="math inline">\(p\)</span>-valor de este nuevo contraste, supondríamos que <span class="math display">\[X\sim Binom(50,0.6)\]</span> y efectuaríamos el cálculo
 <span class="math display">\[
-    P(X\le 28) = F(28) = pbinom(28,50,0.6) =0.3299.
+    P(X\le 28) = F(28) = \KeywordTok{pbinom}\NormalTok{(}\DecValTok{28}\NormalTok{,}\DecValTok{50}\NormalTok{,}\DecValTok{0.6}\NormalTok{)} =0.3299.
 \]</span>
 Puedes comprobarlo con el código</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="conf-int.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">binom.test</span>(</span>
